@@ -15,6 +15,8 @@ ECナビ 春山 征吾(`@haruyama <https://twitter.com/#!/haruyama>`_)
 
 疑問点を挙げるのでもやもやした感じになります
 
+1.1以外はかなり適当です.
+
 .. toctree::
    :maxdepth: 3
    :numbered:
