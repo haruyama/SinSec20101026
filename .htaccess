@@ -1,0 +1,7 @@
+AddLanguage ja .ja
+AddLanguage en .en
+AddType "text/html; charset=UTF-8" html
+
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
+RewriteCond %{LA-F:REQUEST_FILENAME} \.html
+RewriteRule .* - "[T=application/xhtml+xml; charset=UTF-8]"
