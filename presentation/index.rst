@@ -164,7 +164,7 @@ stretchとは?
 stretchの効果(1)
 ======================================================
 
-stretchの効果をはかるために, PHPのmcrypt拡張でSHA-256を繰り返し呼ぶコードで計測
+stretchの効果をはかるために, PHPの hash 拡張でSHA-256を繰り返し呼ぶコードで計測
 
 * 方式は CRYPTOGRAPHY ENGINEERING のもの
 * パスワード 10byte
