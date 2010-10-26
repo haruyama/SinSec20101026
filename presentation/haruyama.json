@@ -85,7 +85,6 @@
       "bulletIndent":0,
       "textColor": "black",
       "backColor": null,
-      "wordWrap": null,
       "borderWidth": 0,
       "borderPadding": 0,
       "borderColor": null,
@@ -205,11 +204,12 @@
     }],
     ["bullet-list-item" , {
       "parent": "bodytext",
-      "spaceBefore":3
+      "spaceAfter":0,
+      "spaceBefore":0
     }],
     ["item-list-item" , {
             "parent": "bodytext",
-            "spaceBefore":-3
+            "spaceBefore":-8
     }],
     ["enumerated-list", {
       "parent": "bodytext"
@@ -516,6 +516,7 @@
     ["bullet-list", {
       "parent": "bodytext",
       "spaceBefore": 0,
+      "spaceAfter":0,
       "commands": [
             [ "VALIGN", [ 0, 0 ], [ -1, -1 ], "TOP" ],
             [ "RIGHTPADDING", [ 0, 0 ], [ 1, -1 ], 0 ] 

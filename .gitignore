@@ -1,7 +1,7 @@
 build
 *~
 *.swp
-presentation/*.pdf
-presentation/index.html
-presentation/ui/
+**/*.pdf
+**/*.html
+**/ui/
 
